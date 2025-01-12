@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font: "Roboto", sans-serif;
+
+  --main-title-size: 60px;
+  --header-title-size: 30px;
+  --title-size: 45px;
+  --text-size: 22px;
+
+  --title-bold: 900;
+
+  --primary-color: #1f2937;
+  --secondary-color: #f9faf8;
+  --tertiary-color: #e5e7eb;
+
+  --accent-color: #3882f6;
+}
+
+body {
+  font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
+}
+
+#__hero_main_text {
+  font-size: var(--main-title-size);
+  font-weight: var(--title-bold);
+
+  color: var(--secondary-color);
+}
+
+#__sub_text,
+#__header_link_text {
+  font-size: var(--text-size);
+  color: var(--tertiary-color);
+}
+
+#__header_title {
+  font-size: var(--header-title-size);
+  color: var(--secondary-color);
+}
+
+#__title {
+  font-size: var(--title-size);
+  font-weight: var(--title-bold);
+
+  color: var(--primary-color);
+}
+
+#__quote_text {
+  font-size: var(--title-size);
+  font-weight: light;
+  font-style: italic;
+
+  color: var(--primary-color);
+}
+
+#__credited {
+  font-size: var(--header-title-size);
+  font-weight: var(--title-bold);
+
+  color: var(--primary-color);
+}
+
+#__button,
+#__cta_button {
+  font-size: 20px;
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+#__cta_button {
+  font-size: 20px;
+  padding: 10px 20px;
+
+  border: 2px solid var(--secondary-color);
+}
+
+#__call_to_action {
+  color: var(--secondary-color);
+}
+
+.__quote {
+  background-color: var(--tertiary-color);
+}
